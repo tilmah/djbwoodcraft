@@ -62,7 +62,7 @@
             <i class="fa fa-twitter"></i>
           </a>
         </p>-->
-        <p>© djb woodcraft 2022
+        <p>&copy; <span id="copyright-year"></span>DJB Woodcraft.  All Rights Reserved.</p>
       </nav>  
     </div> 
   </nav>
@@ -98,7 +98,9 @@
     </div>
   </div>
 </div>
-
+	<script>
+        document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+    </script>
 
 </main>
 

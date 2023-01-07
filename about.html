@@ -62,7 +62,7 @@
             <i class="fa fa-twitter"></i>
           </a>
         </p>-->
-        <p>© djb woodcraft 2022
+        <p>&copy; <span id="copyright-year"></span>DJB Woodcraft.  All Rights Reserved.</p>
       </nav>  
     </div> 
   </nav>
@@ -72,8 +72,7 @@
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <img class="img-responsive" alt="" src="./assets/images/DB1.jpeg">
-             
+    <img class="img-responsive" alt="David" align="right" src="./assets/images/DJB.jpg">     
   </div>
   <div class="col-xs-12 col-md-6">
     <h1>About me</h1>
@@ -100,7 +99,9 @@
 			  </ul>	
  </div>
 </div>
-    
+<script>
+        document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+ </script>    
 </main>
 
 <script>
