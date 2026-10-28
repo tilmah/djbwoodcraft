@@ -8,3 +8,4 @@ node_modules
 *.md
 CNAME
 .DS_Store
+_source
